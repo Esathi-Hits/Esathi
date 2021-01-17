@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/person_24"
+            android:title="Profile" />
+        <item
+            android:id="@+id/current_ride"
+            android:icon="@drawable/ic_current_ride"
+            android:title="Current Ride" />
+        <item
+            android:id="@+id/recent_rides"
+            android:icon="@drawable/ic_recent_rides"
+            android:title="Recent Rides" />
+
+        <item
+            android:id="@+id/signOut"
+            android:icon="@drawable/ic_signout"
+            android:title="Sign Out" />
+        <item
+            android:id="@+id/delete_account"
+            android:icon="@drawable/ic_delete_account"
+            android:title="Delete Account" />
+    </group>
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/settings"
+                android:icon="@drawable/ic_settings"
+                android:title="Settings" />
+            <item
+                android:id="@+id/feedback"
+                android:icon="@drawable/ic_feedback"
+                android:title="Feedback" />
+            <item
+                android:id="@+id/rate"
+                android:icon="@drawable/ic_rate"
+                android:title="Rate" />
+        </menu>
+
+    </item>
+
+
+</menu>
